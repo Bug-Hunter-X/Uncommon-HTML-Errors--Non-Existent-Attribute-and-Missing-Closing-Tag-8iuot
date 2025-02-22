@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv" data-custom="myValue">
+    This is some text.
+  </div>
+  <script>
+    // Correctly accessing an existing attribute
+    let text = document.getElementById('myDiv').getAttribute('data-custom');
+    console.log(text); // This will log 'myValue'
+    // Fixed missing closing tag
+    <p>This paragraph now has a closing tag</p>
+  </script>
+</body>
+</html>
