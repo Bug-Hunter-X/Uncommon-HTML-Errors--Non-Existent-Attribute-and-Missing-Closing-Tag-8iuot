@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    // Incorrectly accessing a non-existent attribute
+    let text = document.getElementById('myDiv').getAttribute('nonExistentAttribute');
+    console.log(text); // This will log 'null'
+    // Another example - missing closing tag
+    <p>This paragraph is missing a closing tag</p>
+  </script>
+</body>
+</html>
